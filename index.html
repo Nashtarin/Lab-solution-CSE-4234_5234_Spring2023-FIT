@@ -5,11 +5,11 @@
 	<meta charset="utf-8" />
 	<title>The Christmas Store </title>
 	<link rel=“stylesheet” href=“myStyle.css”>
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">	<!-- adding tailwind cdn -->
+		<!-- adding tailwind cdn -->
 	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body style="margin:10px;padding:5px">
 	<header role = "banner" class="banner"> 
 		<img src="light.png" alt="Christmas Light" style="width:100%;height:50px;">
 		<h1 class="text-3xl text-blue-600 text-center font-bold my-3">Welcome to Our Christmas Store</h1> 
@@ -22,15 +22,14 @@
 			<li class="bg-emerald-300 text-white font-bold text-lg p-1 m-1 border rounded-lg hover:text-xl hover:text-blue-600"> <a href="deal.html">Today's Deal</a></li>
 		</ul>
 	</nav> 
-	<article>
+
 		<section>
 			<h1 class="text-center"> Welcome to my site. Please come in and stay awhile.</h1>
 <!-- 1. image is in the same folder - relative path -->
-<img src="light.png" alt="Christmas Light"  style="width:95%;height:500px;margin:auto;display:block">
+<img src="light.png" alt="Christmas Light"  style="width:100%;height:300px;margin:auto"/>
 <!-- alternatives ways to link image
 1. from a website -->
-<!-- <img src="https://www.qries.com/images/banner_logo.png" alt="Christmas Light" style="width:500px;height:600px;"> -->
-<!-- 2. image is in different folder - relative path (child directory) -->
+<!-- <img src="https://www.qries.com/images/banner_logo.png" alt="Christmas Light" style="width:500px;height:600px;"> 2. image is in different folder - relative path (child directory) -->
 <!-- <img src="images/light.png" alt="Christmas Light" style="width:500px;height:600px;"> -->
 <!-- 3. image is in different folder - relative path (parent directory) -->
 <!-- <img src="./../light.png" alt="Christmas Light" style="width:500px;height:600px;"> -->
@@ -40,17 +39,11 @@
 
 
 
-<p>
-	i.	I started this web site because Christmas has always been my favorite holiday. Last year, I started selling some of my favorite Christmas products and they’ve become quite a hit.
-</p>
-
-<p>
-	ii.	If you click on the personal link, you can browse my favorite Christmas pictures, stories and films. If you join my email list, I will keep you you up-to-date on all things Christmas.
-</p>
 
 
-<h2 class="font-bold text-center text-2xl text-blue-600"> Product Categories </h2>
-<div class="grid grid-cols-4 gap-10 my-4 container mx-44">
+
+<h2 class="font-bold text-center text-2xl text-blue-600 mt-3"> Product Categories </h2>
+<div class="grid grid-cols-4 gap-10 my-4 container mx-auto">
 	<div class="rounded overflow-hidden shadow-lg">
 		<img class="w-full" src="https://www.newhomesource.com/learn/wp-content/uploads/2020/10/rustic-christmas.jpg.webp" alt="Decoration">
 		<div class="px-6 py-4">
@@ -90,31 +83,30 @@
 		</div>
 		
 	  </div>
+	  <!-- card 4 -->
+	  <div class="rounded overflow-hidden shadow-lg">
+		<img class="w-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKHm6gCdgPN5bkVhIA2O-hIM-wLR707MyLXQ&usqp=CAU" alt="Recipes">
+		<div class="px-6 py-4">
+		  <div class="font-bold text-xl mb-2">Christmas Cakes</div>
+		  <p class="text-gray-700 text-base">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
+		  </p>
+		  <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">$100-$500</span>
+
+		</div>
+	
+	  </div>
 </div>
 </div>
 
 
 
-<ul>
-	<li> Decorations</li>
-	<ul>
-		<li> nested 1
-	</ul>	
-	<li> Recipes</li>
-	<li> Toys </li>
-	<li> Unique Gift Ideas</li>
-	<li> Wrapping Paper</li>
-</ul>
 
 
-<dl>
-	<dt>Coffee</dt>
-	<dd>Black hot drink</dd>
-	<dt>Milk</dt>
-	<dd>White cold drink</dd>
-</dl>
 
-<h3> My guarantee </h3>
+
+
+
 
 <p> 
 	If you aren’t completely satisfied with everything you buy from my site, you can return it for a full refund. 
@@ -125,24 +117,23 @@
 	
 
 
-<a href="https://www.google.com/maps/place/Florida+Institute+of+Technology/@28.0646888,-80.6252107,17z/data=!3m1!4b1!4m5!3m4!1s0x88de1204fc52a6f7:0x37ba57635d6a3f15!8m2!3d28.0646888!4d-80.623022
-">Google Maps - FIT</a> 
+ 
 
 
 		</section >
-	</article> 
+	
 
-	<aside>
+	<aside class="w-1/2">
 		<p> This is the aside part of the web page. </p>
-		<div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=150%20W%20University%20Blvd,%20Melbourne,%20FL%2032901+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">hiking gps</a></iframe></div>
+		<div style="width:100%;"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=150%20W%20University%20Blvd,%20Melbourne,%20FL%2032901+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">hiking gps</a></iframe></div>
 	</aside > 
 
 	
 	
 	
 	
-<footer> &copy;2023 Nasheen Nur</footer>
- <!-- <a href="http://validator.w3.org/check?uri=referer">Validate</a> --> -->
+<footer class="text-center"> &copy;2023 Nasheen Nur</footer>
+ <!-- <a href="http://validator.w3.org/check?uri=referer">Validate</a> -->
 
 	
 

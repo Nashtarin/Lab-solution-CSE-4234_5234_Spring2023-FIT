@@ -9,7 +9,7 @@ aside {
   }
 
 th,td,tr{
-    border: 1px dotted gray;
+    border: 1px dotted gray !important;
 }
 .banner{
   width:95%;
@@ -22,5 +22,6 @@ th,td,tr{
   margin-right: auto;
   width: 85%;
 }
-input[type=text]:focus {
-  background-color: lightblue;} 
+.deals> th{
+  border:1px solid black 
+}
